@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 # Konfigurasi MySQL
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://DBGames_rapidlynow:48588f1f1f155744728611ecb8ffca3195421148@692da.h.filess.io:3305/DBGames_rapidlynow'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://DBGames_positiveto:57110808afce7ff9b320534b2dd7890ba66616a9@vtdah.h.filess.io:3305/DBGames_positiveto'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
